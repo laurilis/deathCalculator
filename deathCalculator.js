@@ -13,7 +13,7 @@ const randomCause = () => {let x = Math.floor(Math.random() * causes.length);
                 return causes[x]};
 
 // beneficial new hobbies
-const hobbies = ['exercising regularly', 'doing Yoga', 'meditating', 'speaking the truth', 'a healthy diet', 'volunteering']
+const hobbies = ['exercising regularly', 'doing Yoga', 'meditating', 'speaking the truth', 'a healthy diet', 'volunteering', 'dancing', 'taking Vitamin B12']
 
 const randomHobby = () => {let x = Math.floor(Math.random() * hobbies.length);
     return hobbies[x]}
