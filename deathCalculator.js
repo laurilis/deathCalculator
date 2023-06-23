@@ -9,13 +9,13 @@ const causes = ['from Drowning', 'from a Heart Attack', 'from a Drug Overdose', 
  'by Murder', 'peacefully in your sleep', 'from Cancer', 'from a poisonous fruit while lost in the woods', 'in a bike accident', 
  'by Suicide', 'getting eaten alive by a wild animal'];
 
-const randomCause = () => {let x = Math.floor(Math.random() * 12);
+const randomCause = () => {let x = Math.floor(Math.random() * causes.length);
                 return causes[x]};
 
 // beneficial new hobbies
 const hobbies = ['exercising regularly', 'doing Yoga', 'meditating', 'speaking the truth', 'a healthy diet', 'volunteering']
 
-const randomHobby = () => {let x = Math.floor(Math.random() * 6);
+const randomHobby = () => {let x = Math.floor(Math.random() * hobbies.length);
     return hobbies[x]}
 
 //Generated Message
