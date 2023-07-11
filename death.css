@@ -8,7 +8,7 @@ html {background-image: url(./6004798.jpg);
 img { margin-top: 50px; }
 
 h1 {width: 100%; font-size: 5em; margin: 0; font-family: Creepster;}
-h2 {font-family: Creepster;}
+h2 {font-family: Creepster; font-size: 3em;}
 
  button {
     padding: 10px 40px;
