@@ -22,3 +22,11 @@ const randomHobby = () => {let x = Math.floor(Math.random() * hobbies.length);
 
 console.log(`You will die on ${date}.${month}.${year} ${randomCause()}. Spend your remaining ${year - 2023} years wisely.
 Higher forces recommend ${randomHobby()}.`);
+
+
+//Connection to HTML
+let eventTarget = document.querySelector('button');
+let subhead = document.querySelector('h2');
+eventTarget.onclick = function() {                 
+    document.getElementById('message').innerHTML = `You will die on ${date}.${month}.${year} ${randomCause()}. Spend your remaining ${year - 2023} years wisely.
+    Higher forces recommend ${randomHobby()}.`; document.body.removeChild(eventTarget); document.body.removeChild(subhead) }
